@@ -3,9 +3,9 @@
 	"id": "burger-mod-fabricated",
 	"version": "${version}",
 	"name": "Burger Mod Fabricated",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Autovw's Burger Mod ported to Fabric, and 1.21!",
 	"authors": [
-		"Me!"
+		"VinesauceBeep"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
