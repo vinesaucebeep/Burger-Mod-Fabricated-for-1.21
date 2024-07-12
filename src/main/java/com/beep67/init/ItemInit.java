@@ -62,6 +62,14 @@ public class ItemInit {
     public static final Item CHICKEN_CHAMPIGNON_BURGER = register("chicken_champignon_burger",
             new Item(new Item.Settings().food(FoodList.TIER_3)));
 
+    // Fish + Champignons
+    public static final Item SALMON_CHAMPIGNON_BURGER = register("salmon_champignon_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_4)));
+
+    public static final Item COD_CHAMPIGNON_BURGER = register("cod_champignon_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_5)));
+
+
 
 
     public static <T extends Item> T register(String name, T item)  {
