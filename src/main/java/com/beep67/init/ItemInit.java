@@ -8,6 +8,7 @@ import net.minecraft.registry.Registry;
 
 
 public class ItemInit {
+    // Basic burgers.
     public static final Item BEEF_BURGER = register("beef_burger",
             new Item(new Item.Settings().food(FoodList.TIER_1)));
 
