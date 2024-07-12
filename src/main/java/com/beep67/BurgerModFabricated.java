@@ -18,6 +18,7 @@ public class BurgerModFabricated implements ModInitializer {
 		ItemInit.load();
 	}
 
+	// Identifier MODID
 	public static Identifier id(String path) {
 		return Identifier.of(MOD_ID, path);
 	}
