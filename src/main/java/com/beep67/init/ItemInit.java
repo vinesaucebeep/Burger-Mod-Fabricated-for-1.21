@@ -31,6 +31,7 @@ public class ItemInit {
         return Registry.register(Registries.ITEM, BurgerModFabricated.id(name), item);
     }
 
+    // Ignore
     public static void load() {}
 
 
