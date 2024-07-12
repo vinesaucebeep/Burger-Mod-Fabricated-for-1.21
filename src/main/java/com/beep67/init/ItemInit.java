@@ -27,6 +27,18 @@ public class ItemInit {
     public static final Item COD_BURGER = register("cod_burger",
             new Item(new Item.Settings().food(FoodList.TIER_5)));
 
+    public static final Item BEEF_CHEESE_BURGER = register("beef_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_1)));
+
+    public static final Item PORK_CHEESE_BURGER = register("pork_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_1)));
+
+    public static final Item MUTTON_CHEESE_BURGER = register("mutton_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_2)));
+
+    public static final Item CHICKEN_CHEESE_BURGER = register("chicken_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_3)));
+
     public static <T extends Item> T register(String name, T item)  {
         return Registry.register(Registries.ITEM, BurgerModFabricated.id(name), item);
     }
