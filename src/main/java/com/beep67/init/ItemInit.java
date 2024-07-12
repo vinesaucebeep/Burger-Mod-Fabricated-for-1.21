@@ -8,7 +8,7 @@ import net.minecraft.registry.Registry;
 
 
 public class ItemInit {
-    // Basic burgers.
+    // Meat + Eggs
     public static final Item BEEF_BURGER = register("beef_burger",
             new Item(new Item.Settings().food(FoodList.TIER_1)));
 
@@ -21,12 +21,15 @@ public class ItemInit {
     public static final Item CHICKEN_BURGER = register("chicken_burger",
             new Item(new Item.Settings().food(FoodList.TIER_3)));
 
+    // Fish + Eggs
     public static final Item SALMON_BURGER = register("salmon_burger",
             new Item(new Item.Settings().food(FoodList.TIER_4)));
 
     public static final Item COD_BURGER = register("cod_burger",
             new Item(new Item.Settings().food(FoodList.TIER_5)));
 
+
+    // Meat + Cheese
     public static final Item BEEF_CHEESE_BURGER = register("beef_cheese_burger",
             new Item(new Item.Settings().food(FoodList.TIER_1)));
 
@@ -39,8 +42,17 @@ public class ItemInit {
     public static final Item CHICKEN_CHEESE_BURGER = register("chicken_cheese_burger",
             new Item(new Item.Settings().food(FoodList.TIER_3)));
 
+    // Fish + Cheese
+    public static final Item SALMON_CHEESE_BURGER = register("salmon_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_4)));
+
+    public static final Item COD_CHEESE_BURGER = register("cod_cheese_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_5)));
+
     public static <T extends Item> T register(String name, T item)  {
         return Registry.register(Registries.ITEM, BurgerModFabricated.id(name), item);
+
+
     }
 
     // Ignore
