@@ -1,8 +1,12 @@
 {
-  "item.burger-mod-fabricated.beef_burger": "Beef Burger",
-  "item.burger-mod-fabricated.pork_burger": "Pork Burger",
-  "item.burger-mod-fabricated.mutton_burger": "Mutton Burger",
-  "item.burger-mod-fabricated.chicken_burger": "Chicken Burger",
-  "item.burger-mod-fabricated.salmon_burger": "Salmon Burger",
-  "item.burger-mod-fabricated.cod_burger": "Cod Burger"
+  "item.burger-mod-fabricated.beef_burger": "Beef Burger with Egg",
+  "item.burger-mod-fabricated.pork_burger": "Pork Burger with Egg",
+  "item.burger-mod-fabricated.mutton_burger": "Mutton Burger with Egg",
+  "item.burger-mod-fabricated.chicken_burger": "Chicken Burger with Egg",
+  "item.burger-mod-fabricated.salmon_burger": "Salmon Burger with Egg",
+  "item.burger-mod-fabricated.cod_burger": "Cod Burger with Egg",
+  "item.burger-mod-fabricated.beef_cheese_burger": "Beef Burger with Cheese",
+  "item.burger-mod-fabricated.pork_cheese_burger": "Pork Burger with Cheese",
+  "item.burger-mod-fabricated.mutton_cheese_burger": "Mutton Burger with Cheese",
+  "item.burger-mod-fabricated.chicken_cheese_burger": "Chicken Burger with Cheese"
 }
