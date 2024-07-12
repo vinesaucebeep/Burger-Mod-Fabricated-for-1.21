@@ -1,5 +1,6 @@
 package com.beep67;
 
+import com.beep67.init.ItemGroupInit;
 import com.beep67.init.ItemInit;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class BurgerModFabricated implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Loading...");
 		ItemInit.load();
+		ItemGroupInit.load();
 	}
 
 	// Identifier MODID
