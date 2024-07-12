@@ -11,6 +11,10 @@
   "item.burger-mod-fabricated.chicken_cheese_burger": "Chicken Burger with Cheese",
   "item.burger-mod-fabricated.salmon_cheese_burger": "Salmon Burger with Cheese",
   "item.burger-mod-fabricated.cod_cheese_burger": "Cod Burger with Cheese",
+  "item.burger-mod-fabricated.beef_champignon_burger": "Beef Burger with Champignons",
+  "item.burger-mod-fabricated.pork_champignon_burger": "Pork Burger with Champignons",
+  "item.burger-mod-fabricated.mutton_champignon_burger": "Mutton Burger with Champignons",
+  "item.burger-mod-fabricated.chicken_champignon_burger": "Chicken Burger with Champignons",
 
   "itemGroup.burger-mod-fabricated.burger_mod": "Burger Mod Fabricated"
 }
