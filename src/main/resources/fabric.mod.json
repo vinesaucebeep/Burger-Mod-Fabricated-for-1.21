@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "burger-mod-fabricated",
+	"version": "${version}",
+	"name": "Burger Mod Fabricated",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/burger-mod-fabricated/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.beep67.BurgerModFabricated"
+		],
+		"client": [
+			"com.beep67.BurgerModFabricatedClient"
+		],
+		"fabric-datagen": [
+			"com.beep67.BurgerModFabricatedDataGenerator"
+		]
+	},
+	"mixins": [
+		"burger-mod-fabricated.mixins.json",
+		{
+			"config": "burger-mod-fabricated.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
