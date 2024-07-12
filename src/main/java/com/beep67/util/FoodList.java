@@ -3,6 +3,8 @@ package com.beep67.util;
 import net.minecraft.component.type.FoodComponent;
 
 public class FoodList {
+    
+    // Tiers for the burgers, including nutrition and saturation.
     public static final FoodComponent TIER_1 = new FoodComponent.Builder()
             .nutrition(10)
             .saturationModifier(1.0f)
