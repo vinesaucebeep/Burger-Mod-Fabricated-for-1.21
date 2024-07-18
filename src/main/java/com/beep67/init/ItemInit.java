@@ -69,6 +69,25 @@ public class ItemInit {
     public static final Item COD_CHAMPIGNON_BURGER = register("cod_champignon_burger",
             new Item(new Item.Settings().food(FoodList.TIER_5)));
 
+    // GOLDEN BURGERS
+
+    public static final Item GOLDEN_BEEF_BURGER = register("golden_beefburger",
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER_1)));
+
+    public static final Item GOLDEN_PORK_BURGER = register("golden_pork_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_1)));
+
+    public static final Item GOLDEN_MUTTON_BURGER = register("golden_mutton_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_2)));
+
+    public static final Item GOLDEN_CHICKEN_BURGER = register("golden_chicken_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_3)));
+
+    public static final Item GOLDEN_SALMON_BURGER = register("golden_salmon_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_4)));
+
+    public static final Item GOLDEN_COD_BURGER = register("golden_cod_burger",
+            new Item(new Item.Settings().food(FoodList.TIER_5)));
 
 
 
