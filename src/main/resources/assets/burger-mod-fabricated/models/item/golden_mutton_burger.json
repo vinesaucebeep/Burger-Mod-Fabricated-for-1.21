@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "burger-mod-fabricated:item/golden_mutton_burger"
+  }
+}

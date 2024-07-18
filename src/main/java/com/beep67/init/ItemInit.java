@@ -71,23 +71,23 @@ public class ItemInit {
 
     // GOLDEN BURGERS
 
-    public static final Item GOLDEN_BEEF_BURGER = register("golden_beefburger",
-            new Item(new Item.Settings().food(FoodList.GOLD_TIER_1)));
+    public static final Item GOLDEN_BEEF_BURGER = register("golden_beef_burger",
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
     public static final Item GOLDEN_PORK_BURGER = register("golden_pork_burger",
-            new Item(new Item.Settings().food(FoodList.TIER_1)));
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
     public static final Item GOLDEN_MUTTON_BURGER = register("golden_mutton_burger",
-            new Item(new Item.Settings().food(FoodList.TIER_2)));
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
     public static final Item GOLDEN_CHICKEN_BURGER = register("golden_chicken_burger",
-            new Item(new Item.Settings().food(FoodList.TIER_3)));
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
     public static final Item GOLDEN_SALMON_BURGER = register("golden_salmon_burger",
-            new Item(new Item.Settings().food(FoodList.TIER_4)));
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
     public static final Item GOLDEN_COD_BURGER = register("golden_cod_burger",
-            new Item(new Item.Settings().food(FoodList.TIER_5)));
+            new Item(new Item.Settings().food(FoodList.GOLD_TIER)));
 
 
 

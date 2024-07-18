@@ -33,7 +33,7 @@ public class FoodList {
             .saturationModifier(0.8f)
             .build();
 
-    public static final FoodComponent GOLD_TIER_1 = new FoodComponent.Builder()
+    public static final FoodComponent GOLD_TIER = new FoodComponent.Builder()
             .nutrition(10)
             .saturationModifier(1.4f)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20*4, 1), 1.0f)

@@ -23,5 +23,12 @@
   "item.burger-mod-fabricated.salmon_champignon_burger": "Salmon Burger with Champignons",
   "item.burger-mod-fabricated.cod_champignon_burger": "Cod Burger with Champignons",
 
+  "item.burger-mod-fabricated.golden_beef_burger": "Golden Beef Burger",
+  "item.burger-mod-fabricated.golden_pork_burger": "Golden Pork Burger",
+  "item.burger-mod-fabricated.golden_mutton_burger": "Golden Mutton Burger",
+  "item.burger-mod-fabricated.golden_chicken_burger": "Golden Chicken Burger",
+  "item.burger-mod-fabricated.golden_salmon_burger": "Golden Salmon Burger",
+  "item.burger-mod-fabricated.golden_cod_burger": "Golden Cod Burger",
+
   "itemGroup.burger-mod-fabricated.burger_mod": "Burger Mod Fabricated"
 }
